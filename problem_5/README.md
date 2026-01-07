@@ -36,7 +36,7 @@ The database file is `db/database.db` and the schema is created from `db/databas
 - Example:
 
 ```bash
-curl "http://localhost:3000/api/books?author=Rowling"
+"http://localhost:3000/api/books?author=Rowling"
 ```
 
 **GET /api/books/:id**
@@ -45,7 +45,7 @@ curl "http://localhost:3000/api/books?author=Rowling"
 - Example:
 
 ```bash
-curl http://localhost:3000/api/books/1
+http://localhost:3000/api/books/1
 ```
 
 **POST /api/books**
@@ -59,9 +59,10 @@ curl http://localhost:3000/api/books/1
 - Example:
 
 ```bash
-curl -X POST http://localhost:3000/api/books \
-  -H "Content-Type: application/json" \
-  -d '{"title":"My Book","author":"Me","published_date":"2024-01-01","isbn":"1234567890"}'
+http://localhost:3000/api/books
+
+Body:
+'{"title":"My Book","author":"Me","published_date":"2024-01-01","isbn":"1234567890"}'
 ```
 
 **PUT /api/books/:id**
@@ -71,9 +72,10 @@ curl -X POST http://localhost:3000/api/books \
 - Example:
 
 ```bash
-curl -X PUT http://localhost:3000/api/books/1 \
-  -H "Content-Type: application/json" \
-  -d '{"title":"New Title"}'
+http://localhost:3000/api/books/1 \
+
+Body:
+'{"title":"New Title"}'
 ```
 
 **DELETE /api/books/:id**
@@ -82,5 +84,5 @@ curl -X PUT http://localhost:3000/api/books/1 \
 - Example:
 
 ```bash
-curl -X DELETE http://localhost:3000/api/books/1
+http://localhost:3000/api/books/1
 ```
