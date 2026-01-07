@@ -1,0 +1,19 @@
+{
+  "name": "problem_5",
+  "version": "1.0.0",
+  "description": "Solution for problem 5 of the 99tech code challenge",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
