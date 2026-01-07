@@ -23,6 +23,7 @@ npm start
 By default the server listens on http://localhost:3000.
 
 The database file is `db/database.db` and the schema is created from `db/database.sql` on startup.
+The API may be tested using Postman or curl
 
 **Endpoints**
 
