@@ -6,6 +6,7 @@ export const getAllBooks = (author?: string, title?: string, isbn?: string): Pro
         let query = "SELECT * FROM Books";
         const params: any[] = [];
 
+        // Depending on which filters are provided, build up the query accordingly
         if (author) {
             query += " WHERE author LIKE ?";
             params.push(`%${author}%`);
