@@ -1,3 +1,5 @@
+// All solutions assume that n > 0
+
 function sum_to_n_a(n: number): number {
 	// Using Gauss' formula for summation from 1 to n. This is the most efficient solution, only having a time complexity of O(1) 
     return n * (n + 1) / 2;   
@@ -15,6 +17,10 @@ function sum_to_n_b(n: number): number {
 }
 
 function sum_to_n_c(n: number): number {
-	// your code here
+    // Using recursion. This solution has a time complexity of O(n)
+	if (n == 1) {
+        return 1;
+    } else {
+        return n + sum_to_n_c(n - 1);
+    }
 }
-
