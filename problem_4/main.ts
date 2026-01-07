@@ -4,12 +4,17 @@ function sum_to_n_a(n: number): number {
 }
 
 function sum_to_n_b(n: number): number {
-	// your code here
+	// Using a for loop. This solution has a time complexity of O(n)
+    let sum: number = 0;
+
+    for (let i: number = 1; i <= n; i++) {
+        sum += i;
+    }
+
+    return sum;
 }
 
 function sum_to_n_c(n: number): number {
 	// your code here
 }
-
-// All solutions assume that n > 0
 
