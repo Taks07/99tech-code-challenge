@@ -1,6 +1,10 @@
 # Problem 5: A Crude Server
 
-This repository contains a small ExpressJS server that exposes a simple books API backed by SQLite.
+This repository contains a small ExpressJS server that exposes a simple books API backed by SQLite. Make sure to change directories to this folder before running any terminal commands.
+
+```bash
+cd problem_5
+```
 
 **Requirements**
 - Node.js (v16+ recommended)
