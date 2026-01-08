@@ -1,6 +1,8 @@
 # Problem 6: Architecture
 
 ## Endpoints ##
+The endpoints were chosen to solely meet the requirements of the task, and not anything more. A more fleshed-out system wpuld have more endpoints.
+
 ### Sign Up
 
 **POST** `/api/auth/signup`
@@ -135,3 +137,7 @@ This is a websocket to allow for live updates of the leaderboard. When the top 1
     }
 }
 ```
+
+## Diagram ##
+The diagram shows the simple flow of how the endpoints are used. 
+![diagram](./diagram.png)
